@@ -1,0 +1,159 @@
+/*
+-------------------------------------------------------------------------------
+CSS Start
+-------------------------------------------------------------------------------
+*/
+a {
+  color: #dd3333;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: #333;
+}
+a:hover {
+  color: #ddb333;
+}
+.button.default {
+  color: #fff;
+  border: 1px solid #b51e1e;
+  background: #e45f5f;
+  background: -moz-linear-gradient(top, #e45f5f 0%, #dd3333 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e45f5f), color-stop(100%, #dd3333));
+  background: -webkit-linear-gradient(top, #e45f5f 0%, #dd3333 100%);
+  background: -o-linear-gradient(top, #e45f5f 0%, #dd3333 100%);
+  background: -ms-linear-gradient(top, #e45f5f 0%, #dd3333 100%);
+  background: linear-gradient(to bottom, #e45f5f 0%, #dd3333 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e45f5f', endColorstr='#dd3333', GradientType=0);
+}
+.button.default:hover {
+  background: #e14949;
+}
+.post_comments .comment.bypostauthor .content .author_name {
+  background: #dd3333;
+  color: #fff;
+}
+.post_comments .comment.bypostauthor .content .author_name a {
+  color: #fff;
+}
+.post_comments .comment .author a:hover {
+  color: #dd3333;
+}
+.post_comments .comment .author .replylink a:hover {
+  background: #dd3333;
+  color: #fff;
+}
+.post_comments .comment .author .in_reply_to a:hover {
+  background: #dd3333;
+  color: #fff;
+}
+.wpcf7 .wpcf7-submit {
+  color: #fff;
+  background: #dd3333;
+  border: 1px solid #a81c1c;
+}
+.wpcf7 .wpcf7-submit:hover {
+  background: #e45f5f;
+}
+.pagination .nav-previous a.active,
+.pagination .nav-previous a:hover,
+.pagination .nav-next a.active,
+.pagination .nav-next a:hover {
+  background: #dd3333;
+  border-color: #a81c1c;
+  color: #fff;
+}
+.smk_service.custom_shape .sv_icon {
+  background: #dd3333;
+  color: #fff;
+}
+.smk_service.custom_shape.shape_diamond .sv_icon:before,
+.smk_service.custom_shape.shape_diamond_rounded .sv_icon:before {
+  background: #dd3333;
+}
+.smk_service.custom_shape.shape_star_eight .sv_icon,
+.smk_service.custom_shape.shape_star_eight_rounded .sv_icon,
+.smk_service.custom_shape.shape_buble .sv_icon,
+.smk_service.custom_shape.shape_buble_rounded .sv_icon {
+  background: #dd3333;
+}
+.smk_slider.footer_slider .slider_tweets .tweet_date {
+  color: #dd3333;
+}
+.container_header .main_menu li a:hover,
+.container_header .main_menu li a.hov {
+  border-top: 1px solid #dd3333;
+  color: #fff;
+}
+.container_header .main_menu li ul li a:hover,
+.container_header .main_menu li ul li a.hov,
+.container_header .main_menu li ul li.current_page_item > a {
+  background: #e14949;
+  border-top: 1px solid #cb2222;
+  border-bottom: 1px solid #cb2222;
+  color: #fff;
+}
+.page_title {
+  background: #dd3333;
+  color: #fff;
+}
+.container_row .mod_call_to.call_style1 {
+  background: #dd3333;
+}
+.showcase_service.service_left_icon:hover .service_icon {
+  background-color: #dd3333;
+}
+.social24:hover {
+  background: #dd3333;
+  color: #fff;
+}
+.widget.widget_calendar #today {
+  background: #dd3333;
+  color: #fff;
+}
+.smk_progress_bar .smk_pb_child {
+  background: #dd3333;
+}
+.smk_price_table .price_table_column .price_table_box .pt_badge {
+  background: #dd3333;
+  color: #fff;
+}
+.smk_price_table .price_table_column.pt_featured .pt_header {
+  background: #dd3333;
+}
+.smk_price_table .price_table_column.pt_featured .pt_price,
+.smk_price_table .price_table_column.pt_featured .pr_price_period {
+  color: #dd3333;
+}
+.smk_slider.main_slider:hover .smk_cs_progress_bar .progress {
+  background: #dd3333;
+}
+.portfolio_filter a {
+  border: 1px solid #dd3333;
+}
+.portfolio_filter a.active_cat {
+  background: #dd3333;
+  color: #ffffff;
+}
+.portfolio_grid .portfolio_item .post_inner .post_content h3 {
+  background: #dd3333;
+}
+.paginate_links .page-numbers:hover,
+.paginate_links .page-numbers.current {
+  color: #fff;
+  background: #dd3333;
+  border-color: #a81c1c;
+}
+.zoom_overlay {
+  background: url(http://ppia-queensland.org/wp-content/themes/luca/assets/images/zoom.png) no-repeat center center #dd3333;
+}
+.sticky img {
+  border: 1px solid #dd3333;
+}
+.team_member .tm_name {
+  background: #dd3333;
+  color: #fff;
+}

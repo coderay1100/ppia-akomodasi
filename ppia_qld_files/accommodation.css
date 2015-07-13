@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+}
+
+.acc-container{
+	min-height: 100%;
+	margin-top: 15px;
+}
+
+.acc-img {
+    max-width: 110%;
+    height: auto;      
+}
+
+
+.acc-rowcolor {
+    background-color:#CCCCCC;
+}
+
+.acc-padall {
+    padding:10px;
+}
+
+.acc-icon {
+    font-size:23px;
+    color:#197BB5;
+}
+

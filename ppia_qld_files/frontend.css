@@ -1,0 +1,302 @@
+/*
+-------------------------------------------------------------------------------
+Grid
+-------------------------------------------------------------------------------
+*/
+/**
+ * SMK Toolkit Front-end CSS
+ *
+ * Author: Smartik
+ * Author URI: http://smartik.ws/
+ */
+/*.halfs(@index) when (@index < 12) {
+	@{container} .@{grid}.@{g_prefix}@{index}_5{
+		width: round( @one_col * @index / 2, 7);
+	}
+}*/
+/**
+ * --------------------------------------------------------------------------
+ * Grid container
+ * --------------------------------------------------------------------------
+ */
+.smk_toolkit_grid_container {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1140px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.smk_toolkit_grid_container img {
+  max-width: 100%;
+}
+.smk_toolkit_grid_container.force_fullwidth {
+  width: 100%!important;
+  max-width: 100%!important;
+  margin-left: 0!important;
+  margin-right: 0!important;
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+/**
+ * --------------------------------------------------------------------------
+ * Grid global
+ * --------------------------------------------------------------------------
+ */
+.smk_toolkit_grid_container .smk_tk_grid {
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin: 0;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.smk_toolkit_grid_container .smk_tk_grid.grid_first {
+  padding-left: 0;
+}
+.smk_toolkit_grid_container .smk_tk_grid.grid_last {
+  padding-right: 0;
+}
+.smk_toolkit_grid_container .smk_tk_grid.grid_both {
+  padding-left: 0;
+  padding-right: 0;
+}
+.smk_toolkit_grid_container .smk_tk_grid.desk_12 {
+  min-height: 0;
+}
+.mobile_clear {
+  height: 0;
+  display: none;
+}
+/**
+ * --------------------------------------------------------------------------
+ * Default Grid size
+ * --------------------------------------------------------------------------
+ */
+.smk_toolkit_grid_container .smk_tk_grid.desk_12 {
+  width: 100%;
+}
+.smk_toolkit_grid_container .smk_tk_grid.desk_11 {
+  width: 91.6666667%;
+}
+.smk_toolkit_grid_container .smk_tk_grid.desk_10 {
+  width: 83.3333333%;
+}
+.smk_toolkit_grid_container .smk_tk_grid.desk_9 {
+  width: 75%;
+}
+.smk_toolkit_grid_container .smk_tk_grid.desk_8 {
+  width: 66.6666667%;
+}
+.smk_toolkit_grid_container .smk_tk_grid.desk_7 {
+  width: 58.3333333%;
+}
+.smk_toolkit_grid_container .smk_tk_grid.desk_6 {
+  width: 50%;
+}
+.smk_toolkit_grid_container .smk_tk_grid.desk_5 {
+  width: 41.6666667%;
+}
+.smk_toolkit_grid_container .smk_tk_grid.desk_4 {
+  width: 33.3333333%;
+}
+.smk_toolkit_grid_container .smk_tk_grid.desk_3 {
+  width: 25%;
+}
+.smk_toolkit_grid_container .smk_tk_grid.desk_2 {
+  width: 16.6666667%;
+}
+.smk_toolkit_grid_container .smk_tk_grid.desk_1 {
+  width: 8.3333333%;
+}
+/**
+ * --------------------------------------------------------------------------
+ * Responsive
+ * --------------------------------------------------------------------------
+ */
+@media only screen and (max-width: 768px) {
+  .smk_toolkit_grid_container {
+    overflow-x: hidden;
+  }
+  .smk_toolkit_grid_container .smk_tk_grid.desk_1,
+  .smk_toolkit_grid_container .smk_tk_grid.desk_2,
+  .smk_toolkit_grid_container .smk_tk_grid.desk_3,
+  .smk_toolkit_grid_container .smk_tk_grid.desk_4,
+  .smk_toolkit_grid_container .smk_tk_grid.desk_5,
+  .smk_toolkit_grid_container .smk_tk_grid.desk_6,
+  .smk_toolkit_grid_container .smk_tk_grid.desk_7,
+  .smk_toolkit_grid_container .smk_tk_grid.desk_8,
+  .smk_toolkit_grid_container .smk_tk_grid.desk_9,
+  .smk_toolkit_grid_container .smk_tk_grid.desk_10,
+  .smk_toolkit_grid_container .smk_tk_grid.desk_11,
+  .smk_toolkit_grid_container .smk_tk_grid.desk_12 {
+    width: 100%;
+  }
+  .smk_toolkit_grid_container .smk_tk_grid.mob_1,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_2,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_3,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_4,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_5,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_6,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_7,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_8,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_9,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_10,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_11,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_12 {
+    clear: none;
+  }
+  .smk_toolkit_grid_container .eg_separator_left {
+    margin-left: -1px;
+  }
+  .smk_toolkit_grid_container .smk_tk_grid.mob_12 {
+    width: 100%;
+  }
+  .smk_toolkit_grid_container .smk_tk_grid.mob_11 {
+    width: 91.6666667%;
+  }
+  .smk_toolkit_grid_container .smk_tk_grid.mob_10 {
+    width: 83.3333333%;
+  }
+  .smk_toolkit_grid_container .smk_tk_grid.mob_9 {
+    width: 75%;
+  }
+  .smk_toolkit_grid_container .smk_tk_grid.mob_8 {
+    width: 66.6666667%;
+  }
+  .smk_toolkit_grid_container .smk_tk_grid.mob_7 {
+    width: 58.3333333%;
+  }
+  .smk_toolkit_grid_container .smk_tk_grid.mob_6 {
+    width: 50%;
+  }
+  .smk_toolkit_grid_container .smk_tk_grid.mob_5 {
+    width: 41.6666667%;
+  }
+  .smk_toolkit_grid_container .smk_tk_grid.mob_4 {
+    width: 33.3333333%;
+  }
+  .smk_toolkit_grid_container .smk_tk_grid.mob_3 {
+    width: 25%;
+  }
+  .smk_toolkit_grid_container .smk_tk_grid.mob_2 {
+    width: 16.6666667%;
+  }
+  .smk_toolkit_grid_container .smk_tk_grid.mob_1 {
+    width: 8.3333333%;
+  }
+  .mobile_clear {
+    display: block;
+    clear: both;
+    overflow: hidden;
+    height: 0;
+    width: 100%;
+    margin: 0;
+    visibility: hidden;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .smk_toolkit_grid_container .smk_tk_grid.mob_1,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_2,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_3,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_4,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_5,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_6,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_7,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_8,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_9,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_10,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_11,
+  .smk_toolkit_grid_container .smk_tk_grid.mob_12 {
+    width: 100%;
+  }
+}
+/**
+ * --------------------------------------------------------------------------
+ * Clearfix
+ * --------------------------------------------------------------------------
+ */
+.smk_toolkit_grid_container:before,
+.smk_toolkit_grid_container:after,
+.smk_toolkit_grid_container .smk_clearfix:before,
+.smk_toolkit_grid_container .smk_clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.smk_toolkit_grid_container .clear {
+  display: block;
+  clear: both;
+  overflow: hidden;
+  height: 0;
+  width: 100%;
+  margin: 0;
+  visibility: hidden;
+}
+/**
+ * --------------------------------------------------------------------------
+ * Row spacing
+ * --------------------------------------------------------------------------
+ */
+.smk_page_builder .spb_row {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/**
+ * --------------------------------------------------------------------------
+ * Text align
+ * --------------------------------------------------------------------------
+ */
+.smk_textalign_center {
+  text-align: center;
+}
+.smk_textalign_right {
+  text-align: right;
+}
+.smk_text_small {
+  font-size: 1em;
+}
+.smk_text_medium {
+  font-size: 1.4em;
+}
+.smk_text_large {
+  font-size: 2.2em;
+}
+.smk_text_uppercase {
+  text-transform: uppercase;
+}
+.smk_margin_top_0 {
+  margin-top: 0;
+}
+.smk_margin_bottom_0 {
+  margin-bottom: 0;
+}
+.smk_margin_top_bottom_0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/**
+ * --------------------------------------------------------------------------
+ * Embed module
+ * --------------------------------------------------------------------------
+ */
+.smk_pb_embed_container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 56.25%;
+}
+.smk_pb_embed_container iframe {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
