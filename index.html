@@ -59,6 +59,7 @@ color:#3c919e;
 }
 </style>
 <link rel="stylesheet" href="./ppia_qld_files/bootstrap.min.css">
+<link rel="stylesheet" href="./ppia_qld_files/lightbox.css">
 <link rel="stylesheet" id="rs-plugin-captions-css" href="./ppia_qld_files/captions.php" type="text/css" media="all">
 <link rel="stylesheet" id="spb_toolkit_frontend-css" href="./ppia_qld_files/frontend.css" type="text/css" media="all">
 <link rel="stylesheet" id="spb_toolkit_font_awesome-css" href="./ppia_qld_files/font-awesome.css" type="text/css" media="all">
@@ -205,7 +206,8 @@ CONTAINER ROW
                 <div class="row acc-padall">
                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                         <span></span>
-                        <img ng-src="{{house.foto ? house.foto : 'http://dummyimage.com/600x400/000/fff'}}">
+                       <a href="http://dummyimage.com/600x400/000/fff" data-lightbox="image-1" data-title="My caption"> <img ng-src="{{house.foto ? house.foto : 'http://dummyimage.com/600x400/000/fff'}}"> </a>
+                       
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                         <div class="clearfix">
@@ -230,40 +232,27 @@ CONTAINER ROW
 						          <div class="item  active">
 						            <div class="row">
 						              <div class="col-md-4">
-						                <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a>
+						                <a class="thumbnail" data-lightbox="image-1" data-title="My caption" href="http://dummyimage.com/600x400/000/fff"><img alt="" src="http://placehold.it/150x150" data-lightbox="image-1" data-title="My caption"></a>
 						              </div>          
 						              <div class="col-md-4">
-						                <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a>
+						                 <a class="thumbnail" data-lightbox="image-1" data-title="My caption" href="http://dummyimage.com/600x400/000/fff"><img alt="" src="http://placehold.it/150x150" data-lightbox="image-1" data-title="My caption"></a>
 						              </div>
 						              <div class="col-md-4">
-						                <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a>
+						                 <a class="thumbnail" data-lightbox="image-1" data-title="My caption" href="http://dummyimage.com/600x400/000/fff"><img alt="" src="http://placehold.it/150x150" data-lightbox="image-1" data-title="My caption"></a>
 						              </div>        
 						            </div>
 						          </div>
 						          <div class="item">
 						            <div class="row">
 						              <div class="col-md-4">
-						                <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a>
+						                 <a class="thumbnail" data-lightbox="image-1" data-title="My caption" href="http://dummyimage.com/600x400/000/fff"><img alt="" src="http://placehold.it/150x150" data-lightbox="image-1" data-title="My caption"></a>
 						              </div>          
 						              <div class="col-md-4">
-						                <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a>
+						                 <a class="thumbnail" data-lightbox="image-1" data-title="My caption" href="http://dummyimage.com/600x400/000/fff"><img alt="" src="http://placehold.it/150x150" data-lightbox="image-1" data-title="My caption"></a>
 						              </div>
 						              <div class="col-md-4">
-						                <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a>
+						                 <a class="thumbnail" data-lightbox="image-1" data-title="My caption" href="http://dummyimage.com/600x400/000/fff"><img alt="" src="http://placehold.it/150x150" data-lightbox="image-1" data-title="My caption"></a>
 						              </div>        
-						            </div>
-						          </div>
-						          <div class="item">
-						            <div class="row">
-						              <div class="col-md-4">
-						                <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a>
-						              </div>          
-						              <div class="col-md-4">
-						                <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a>
-						              </div>
-						              <div class="col-md-4">
-						                <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a>
-						              </div>      
 						            </div>
 						          </div>
 						        </div>
@@ -316,5 +305,7 @@ var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","c
 </script>
 <script type="text/javascript" src="./ppia_qld_files/thickbox.js"></script>
 <script src="./ppia_qld_files/gallery.js"></script>
+<script src="./ppia_qld_files/lightbox.js"></script>
+
 
 </body></html>
